@@ -1,0 +1,21 @@
+{
+  "name": "password-detective",
+  "version": "1.0.0",
+  "description": "Checks a user's password against a list of compromised passwords on haveibeenpwned.com",
+  "main": "index.js",
+  "bin": {
+    "pass-detect": "./index.js"
+  },
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Elikem Hermon",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "eslint": "^6.0.1",
+    "readline-sync": "^1.4.9",
+    "request": "^2.88.0"
+  }
+}
